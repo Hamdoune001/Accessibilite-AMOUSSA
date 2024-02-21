@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="../Css/contact.css">
+</head>
+<body>
+<header class="header">
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a class="active" href="home.html">Contact</a>
+    </div>
+</header>
+
+<h2>Formulaire de Contact</h2>
+
+<form action="/Contact" method="post">
+    <div class="input-group">
+        <input class="form-input" type="text" id="name" name="name" placeholder="Nom">
+        <input class="form-input" type="email" id="email" name="email" placeholder="Email">
+    </div>
+
+    <label for="message"></label><br>
+    <textarea id="message" name="message" placeholder="Message"></textarea><br>
+
+    <input type="submit" value="Envoyer">
+</form>
+</body>
+</html>

@@ -1,0 +1,114 @@
+
+.img {
+    height: 200px;
+}
+h2{
+    text-align: center
+}
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-grow: 1; /* La navbar prend tout l'espace horizontal */
+    height: 70px;
+    align-items: center;
+}
+/* Style pour les liens */
+.navbar a {
+    color: black; /* Couleur du texte des liens */
+    padding: 10px 15px; /* Espacement autour du texte des liens */
+    text-decoration: none; /* Pas de soulignement pour les liens */
+    font-weight: bold; /* Texte en gras */
+    margin-right: 10px; /* Espace entre les liens */
+    font-size: 20px;
+}
+
+/* Style au survol des liens */
+.navbar a:hover {
+    background-color: #000000; /* Fond des liens au survol */
+    color: #ffffff; /* Texte des liens au survol */
+}
+
+/* Style pour les entrées individuelles */
+.form-input {
+    padding: 10px; /* Plus de padding pour agrandir les cases */
+    border-radius: 5px; /* Bordures légèrement arrondies */
+    border: 1px solid #ccc; /* Bordure subtile */
+    width: 200px; /* Définir une largeur fixe pour chaque champ */
+}
+
+/* Style pour agrandir et centrer le titre h2 */
+h2 {
+    text-align: center; /* Centrer le titre */
+    font-size: 24px; /* Augmenter la taille de la police */
+    margin-bottom: 30px; /* Espace sous le titre */
+}
+
+/* Style du formulaire pour centrer les éléments */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style pour le champ de message */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Largeur à 100% */
+    height: 100%; /* Hauteur à 100% */
+}
+h2{
+    text-align: center;
+}
+body {
+    background-color: #D9D9D9;
+    font-family: 'Oswald', sans-serif;
+}
+.enjolive-cadre {
+    border: 2px solid #000000; /* Couleur de la bordure */
+    padding: 15px; /* Espace intérieur du cadre */
+    border-radius: 15px; /* Coins arrondis */
+    background-color: #ecf0f1; /* Couleur de fond */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.enjolive-cadre img {
+    max-width: 100%; /* Assurez-vous que les images à l'intérieur s'ajustent correctement */
+}
+
+.enjolive-cadre h3 {
+    color: #e74c3c; /* Couleur du titre */
+}
+
+.comments-section {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.comments-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.comments-section form {
+    margin-bottom: 10px;
+}
+
+.comments-section textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.existing-comments p {
+    margin-bottom: 5px;
+}
