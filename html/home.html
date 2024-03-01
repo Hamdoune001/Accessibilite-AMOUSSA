@@ -5,6 +5,11 @@
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="../Css/home.css">
     <script src="../Js/home.js" defer></script>
+    <style>
+        .blue-at {
+            color: blue;
+        }
+    </style>
 </head>
 <body>
 <header class="header">
@@ -19,7 +24,6 @@
     <!-- Section Musique -->
     <section class="blog-section" id="musique">
         <h2>Musique</h2>
-
         <!-- Article La Fève -->
         <article class="blog-article">
             <h3>Avec son nouvel album 24, La Fève incarne encore un peu plus l'avenir du rap français. </h3>
@@ -27,24 +31,18 @@
             <p>Deux ans après le projet ERRR, le rappeur de 23 ans originaire de Fontenay-sous-Bois continue de ravir les amateurs de rap.
                 Avec le titre Loyal présent sur son nouveau projet, La Fève a connu le meilleur démarrage de sa carrière. Il a comptabilisé 200 000 streams en 24h et a enregistré 600 000 vues pour son clip.
             </p>
-
             <iframe width="560" height="315" src="https://www.youtube.com/embed/59rzbrsPE6U?si=_fq_O6QvX4sAH78y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-            <!-- Comment Section for La Fève -->
             <div class="comments-section">
                 <h4>Comments</h4>
-                <!-- Add a form for users to submit comments -->
                 <form action="submit_comment.php" method="post">
-                    <label for="comment">Leave a comment:</label>
+                    <label for="comment">Votre commentaire...</label>
                     <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
                     <input type="submit" value="Submit">
                 </form>
-
-                <!-- Display existing comments -->
                 <div class="existing-comments">
-                    <p>User1: Great article!</p>
-                    <p>User2: I love La Fève's music!</p>
-                    <!-- Add more comments as needed -->
+                    <p>No name: Feve7W!</p>
+                    <p>Corentin1212: Trop bien le mec!</p>
+                    <p>Matiasdu7: BIg Up Fève!</p>
                 </div>
             </div>
         </article>
@@ -54,22 +52,17 @@
             <h3>Booba dévoile le splendide clip de son nouveau tube entêtant "Saga" !</h3>
             <p>Entrée fracassante avec "6G", Booba confirme sa grande forme du moment sur son nouvel album "Ad Vitam Aeternam". Pour surfer sur cette belle dynamique, le Duc de Boulogne dévoile le clip de l'excellente piste "Saga" dans une ambiance de science-fiction.</p>
             <iframe width="640" height="360" src="https://www.youtube.com/embed/2Jq21pM9CQc" title="B00BA" allowfullscreen></iframe>
-
-            <!-- Comment Section for Booba - Saga -->
             <div class="comments-section">
                 <h4>Comments</h4>
-                <!-- Add a form for users to submit comments -->
                 <form action="submit_comment.php" method="post">
-                    <label for="comment">Leave a comment:</label>
+                    <label for="comment">Votre commentaire...</label>
                     <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
                     <input type="submit" value="Submit">
                 </form>
-
-                <!-- Display existing comments -->
                 <div class="existing-comments">
-                    <p>User1: Booba always delivers!</p>
-                    <p>User2: The music video is amazing.</p>
-                    <!-- Add more comments as needed -->
+                    <p>Damso: Booba !</p>
+                    <p>Shay: La piraterie n'est jamais fini!.</p>
+                    <p>SDM: Vondevondavon !.</p>
                 </div>
             </div>
         </article>
@@ -84,22 +77,39 @@
             <img src="../image/bloginfofoot.webp" class="img" alt="Image de l'article 1 - Les éléphants ivoiriens champions d'Afrique">
             <p class="article-source">Source : Bein Sports</p>
             <h3>CAN 2024 : Les aigles échouent face aux éléphants ivoiriens 2-0 et remportent la coupe d'Afrique!</h3>
-
-            <!-- Comment Section for Éléphants ivoiriens -->
+            <table>
+                <thead>
+                <tr>
+                    <th>Pays</th>
+                    <th>Participation</th>
+                    <th>Probabilité de victoire</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Nigeria</td>
+                    <td> 10 fois</td>
+                    <td>25%</td>
+                </tr>
+                <tr>
+                    <td>Côte d'Ivoire</td>
+                    <td> 23 fois</td>
+                    <td>10%</td>
+                </tr>
+                </tbody>
+            </table>
             <div class="comments-section">
                 <h4>Comments</h4>
-                <!-- Add a form for users to submit comments -->
                 <form action="submit_comment.php" method="post">
-                    <label for="comment">Leave a comment:</label>
+                    <label for="comment">Votre commentaire...</label>
                     <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
                     <input type="submit" value="Submit">
                 </form>
-
-                <!-- Display existing comments -->
                 <div class="existing-comments">
-                    <p>User1: What a match! Congrats to Ivory Coast!</p>
-                    <p>User2: Disappointing performance from the eagles.</p>
-                    <!-- Add more comments as needed -->
+                    <p>Ulrichrich32: What a match! Congrats to the Ivory Coast!</p>
+                    <p>Plakali: Attieke serai donc chaud que èba? woaaaa</p>
+                    <p>DgArafat: Ah vieux @Felakuti tu vois non?!</p>
+                    <p>Felakuti: Ah bien jouer ! mais @DgArafat legwork est mieux que kpankaka haha!</p>
                 </div>
             </div>
         </article>
@@ -109,23 +119,24 @@
             <img src="../image/Mbappegif.gif" class="img.gif" alt="M">
             <h3>Kylian Mbappé quitte le PSG pour rejoindre le Real Madrid</h3>
             <p>Kylian Mbappé va faire ses bagages et quitter le PSG à la fin de la saison, pour rejoindre, vraisemblablement, le Real Madrid. Une annonce qui tombe au plus mauvais moment pour le football français qui perd sa tête d'affiche alors qu'elle est en pleine négociation de ses droits TV.</p>
-            <p>Source : Europe1 </p>
+            <div class="chart-container">
+                <canvas id="probabilityChart"></canvas>
+            </div>
 
-            <!-- Comment Section for Mbappé quitte le PSG -->
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            <script src="../Js/home.js"></script>
+            <p>Source : Europe1 </p>
             <div class="comments-section">
                 <h4>Comments</h4>
-                <!-- Add a form for users to submit comments -->
                 <form action="submit_comment.php" method="post">
-                    <label for="comment">Leave a comment:</label>
+                    <label for="comment">Votre commentaire...</label>
                     <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
                     <input type="submit" value="Submit">
                 </form>
-
-                <!-- Display existing comments -->
                 <div class="existing-comments">
-                    <p>User1: Shocking news for PSG fans!</p>
-                    <p>User2: Real Madrid is lucky to have Mbappé.</p>
-                    <!-- Add more comments as needed -->
+                    <p>Ethanmbp0: Shocking news for PSG fans!</p>
+                    <p>PersoB: Rien à F!</p>
+                    <p>Zizoubooba5: Real Madrid is lucky to have Mbappé.</p>
                 </div>
             </div>
         </article>
@@ -151,18 +162,15 @@
             </p>
             <div class="comments-section">
                 <h4>Comments</h4>
-                <!-- Add a form for users to submit comments -->
                 <form action="submit_comment.php" method="post">
-                    <label for="comment">Leave a comment:</label>
+                    <label for="comment">Votre commentaire...</label>
                     <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
                     <input type="submit" value="Submit">
                 </form>
 
-                <!-- Display existing comments -->
                 <div class="existing-comments">
-                    <p>User1: Heartbreaking news for the people of RDC.</p>
-                    <p>User2: The international community must do more to help.</p>
-                    <!-- Add more comments as needed -->
+                    <p> U.S.: Heartbreaking news for the people of RDC.</p>
+                    <p> Bill Gates: The international community must do more to help. lmao asshole</p>
                 </div>
             </div>
         </article>
